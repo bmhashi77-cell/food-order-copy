@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.signin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+
+.left h1{
+    font-size: 5em;
+    padding-top: 100px;
+    /* padding-bottom: 40px; */
+}
+
+.left p{
+    font-size: 1.5em;
+    padding-top: 20px;
+
+}
+
+
+form{
+    margin-top: 50px;
+    
+}
+
+
+input{
+    width: 350px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(211, 209, 209);
+
+}
+
+.left button{
+    background-color: orangered;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+    
+}
+
+
+/* right sign up */
+
+
+.right{
+    width: 50%;
+    height: 100vh;
+    background-color: orangered;
+    text-align: center;
+}
+
+
+.right h1{
+    padding-top: 230px;
+    font-size: 4em;
+    color: white;
+    padding-bottom: 40px;
+
+}
+
+.right p{
+    color: white;
+    font-size: 1.8em;
+    padding-bottom: 40px;
+}
+
+.right button{
+
+    background-color: orangered;
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+
