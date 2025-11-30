@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.signup{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 40%;
+    height: 100vh;
+    text-align: center;
+    background-color: orangered;
+}
+
+.left h1{
+    font-size: 5em;
+    padding-top: 150px;
+    color: white;
+    /* padding-bottom: 40px; */
+}
+
+.left p{
+    font-size: 1.5em;
+    padding-top: 60px;
+    padding-left: 100px;
+    width: 70%;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+.left button{
+    background-color: orangered;
+    width: 200px;
+    height: 50px;
+    margin-top: 70px;
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+    
+}
+
+
+/* right sign up */
+
+
+.right{
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+}
+
+
+.right h1{
+    padding-top: 60px;
+    font-size: 4em;
+    color: black;
+    padding-bottom: 40px;
+
+}
+
+i{
+    color: orangered;
+    font-size: 2em;
+    padding-bottom: 70px;
+}
+
+.right p{
+    color: black;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+
+
+form{
+    margin-top: 20px;
+    
+}
+
+
+input{
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(211, 209, 209);
+
+}
+
+.right button{
+
+    background-color: orangered;
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+}
